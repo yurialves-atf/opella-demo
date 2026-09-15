@@ -1,0 +1,417 @@
+:root {
+    --opella-green: #042B0B;
+    --opella-warm-white: #F7EFE6;
+    --opella-pink: #FF78D2;
+
+    --opella-green-90: #263F26;
+    --opella-green-80: #3D553E;
+    --opella-green-70: #546955;
+    --opella-green-60: #6D7F6E;
+    --opella-green-50: #859486;
+    --opella-green-40: #9EAA9E;
+    --opella-green-30: #B6BFB7;
+    --opella-green-20: #CED5CE;
+    --opella-green-10: #E7EAE7;
+}
+
+
+/* --------------------------------------------------
+   PAGE
+-------------------------------------------------- */
+
+.stApp {
+    background: var(--opella-warm-white);
+    color: var(--opella-green);
+}
+
+.block-container {
+    max-width: 1180px;
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+}
+
+
+/* --------------------------------------------------
+   TYPOGRAPHY
+-------------------------------------------------- */
+
+html,
+body,
+.stApp {
+    font-family:
+        "Opella Sans",
+        "Helvetica Neue",
+        Arial,
+        sans-serif;
+}
+
+/* --------------------------------------------------
+   STREAMLIT / MATERIAL ICONS
+-------------------------------------------------- */
+
+[class*="material-symbols"],
+span[data-testid="stIconMaterial"] {
+    font-family: "Material Symbols Rounded" !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    line-height: 1 !important;
+    letter-spacing: normal !important;
+    text-transform: none !important;
+    white-space: nowrap !important;
+    word-wrap: normal !important;
+    direction: ltr !important;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--opella-green);
+    letter-spacing: -0.035em;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2,
+h3 {
+    font-weight: 700;
+}
+
+p,
+label {
+    color: var(--opella-green);
+}
+
+
+/* --------------------------------------------------
+   HERO
+-------------------------------------------------- */
+
+.opella-hero {
+    padding: 24px 0 46px 0;
+    max-width: 900px;
+}
+
+.opella-eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.opella-hero-title {
+    font-size: clamp(3.2rem, 6vw, 6.5rem);
+    line-height: 0.92;
+    letter-spacing: -0.055em;
+    font-weight: 700;
+    color: var(--opella-green);
+    max-width: 900px;
+}
+
+.opella-hero-subtitle {
+    max-width: 680px;
+    font-size: 1.15rem;
+    line-height: 1.45;
+    margin-top: 28px;
+    color: var(--opella-green-70);
+}
+
+
+/* Challenger Pink:
+   apenas UM elemento de destaque na página */
+
+.opella-challenger-badge {
+    display: inline-block;
+    background: var(--opella-pink);
+    color: var(--opella-green);
+    padding: 7px 13px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.78rem;
+    margin-top: 24px;
+}
+
+
+/* --------------------------------------------------
+   SECTION HEADER
+-------------------------------------------------- */
+
+.opella-section-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin-top: 44px;
+    margin-bottom: 24px;
+}
+
+.opella-section-number {
+    border: 1px solid var(--opella-green-30);
+    border-radius: 999px;
+    min-width: 46px;
+    height: 46px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 700;
+    color: var(--opella-green);
+}
+
+.opella-section-title {
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.opella-section-description {
+    color: var(--opella-green-60);
+    max-width: 650px;
+}
+
+
+/* --------------------------------------------------
+   CONTAINERS / CARDS
+-------------------------------------------------- */
+
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    border: 1px solid var(--opella-green-20);
+    border-radius: 20px;
+    background: rgba(247, 239, 230, 0.65);
+}
+
+.opella-card {
+    border: 1px solid var(--opella-green-20);
+    border-radius: 20px;
+    padding: 24px;
+}
+
+
+/* --------------------------------------------------
+   INPUTS
+-------------------------------------------------- */
+
+input,
+textarea {
+    background: #FFFFFF !important;
+    color: var(--opella-green) !important;
+    border-radius: 12px !important;
+}
+
+
+/* --------------------------------------------------
+   BUTTONS
+-------------------------------------------------- */
+
+.stButton > button {
+    background: var(--opella-green) !important;
+    color: var(--opella-warm-white) !important;
+
+    border: none !important;
+    border-radius: 999px !important;
+
+    padding: 0.7rem 1.5rem !important;
+
+    font-weight: 700 !important;
+}
+
+/* Streamlit coloca o texto em elementos internos */
+.stButton > button p,
+.stButton > button span,
+.stButton > button div {
+    color: var(--opella-warm-white) !important;
+}
+
+/* Hover */
+.stButton > button:hover {
+    background: var(--opella-green-90) !important;
+    color: var(--opella-warm-white) !important;
+    border: none !important;
+}
+
+.stButton > button:hover p,
+.stButton > button:hover span,
+.stButton > button:hover div {
+    color: var(--opella-warm-white) !important;
+}
+
+/* Disabled */
+.stButton > button:disabled {
+    background: var(--opella-green-20) !important;
+    color: var(--opella-green-60) !important;
+
+    border: none !important;
+    opacity: 1 !important;
+
+    cursor: not-allowed !important;
+}
+
+.stButton > button:disabled p,
+.stButton > button:disabled span,
+.stButton > button:disabled div {
+    color: var(--opella-green-60) !important;
+}
+
+/* --------------------------------------------------
+   FILE UPLOADER
+-------------------------------------------------- */
+
+div[data-testid="stFileUploader"] {
+    background: var(--opella-green-10);
+    border-radius: 18px;
+    padding: 18px 20px;
+}
+
+div[data-testid="stFileUploader"] section {
+    background: transparent;
+    border: none;
+}
+
+div[data-testid="stFileUploader"] button {
+    border: 1px solid var(--opella-green-30);
+    background: var(--opella-warm-white);
+    color: var(--opella-green);
+    border-radius: 999px;
+    font-weight: 700;
+}
+
+div[data-testid="stFileUploader"] button:hover {
+    border-color: var(--opella-green);
+    background: var(--opella-green);
+    color: var(--opella-warm-white);
+}
+
+
+/* --------------------------------------------------
+   ALERTS
+-------------------------------------------------- */
+
+div[data-testid="stAlert"] {
+    border-radius: 14px;
+}
+
+
+/* --------------------------------------------------
+   DIVIDERS
+-------------------------------------------------- */
+
+hr {
+    border-color: var(--opella-green-20);
+}
+
+
+/* --------------------------------------------------
+   STREAMLIT CHROME
+-------------------------------------------------- */
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+/* --------------------------------------------------
+   WORKFLOW STEPPER
+-------------------------------------------------- */
+
+.workflow-step {
+    min-height: 78px;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 12px 14px;
+
+    border: 1px solid transparent;
+    border-radius: 16px;
+
+    transition: all 0.2s ease;
+}
+
+
+.workflow-step-number {
+    width: 42px;
+    height: 42px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+.workflow-step-eyebrow {
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: var(--opella-green-60);
+}
+
+
+.workflow-step-title {
+    margin-top: 3px;
+
+    font-size: 0.85rem;
+    font-weight: 700;
+    line-height: 1.15;
+
+    color: var(--opella-green);
+}
+
+
+/* Current */
+
+.workflow-step.active {
+    border-color: var(--opella-green-40);
+    background: rgba(231, 234, 231, 0.55);
+}
+
+.workflow-step.active
+.workflow-step-number {
+    background: var(--opella-green);
+    color: var(--opella-warm-white);
+}
+
+
+/* Completed */
+
+.workflow-step.completed
+.workflow-step-number {
+    background: var(--opella-green-10);
+    color: var(--opella-green);
+}
+
+
+/* Future */
+
+.workflow-step.inactive {
+    opacity: 0.65;
+}
+
+.workflow-step.inactive
+.workflow-step-number {
+    background: var(--opella-green-10);
+    color: var(--opella-green-70);
+}
+
+
+/* --------------------------------------------------
+   Workflow content
+-------------------------------------------------- */
+
+.workflow-content {
+    margin-top: 42px;
+}

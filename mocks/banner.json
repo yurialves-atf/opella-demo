@@ -1,0 +1,49 @@
+{
+  "asset_type": "banner_memed",
+  "audience": "Profissional de saúde",
+  "objective": "Awareness",
+  "creative_concept": {
+    "main_message": "Alívio rápido da dor com Novalgina Flash",
+    "visual_direction": "Comunicação de alto impacto, com destaque para rapidez de ação, produto e métrica principal"
+  },
+  "content": {
+    "headline": "Quando a dor aparece, o tempo importa",
+    "subheadline": "Novalgina Flash combina dipirona 1 g e cafeína 130 mg para o tratamento da dor.",
+    "sections": [],
+    "key_points": [],
+    "evidence_blocks": [
+      {
+        "metric": "15 min",
+        "message": "início de ação descrito na monografia"
+      },
+      {
+        "metric": "~2x",
+        "message": "mais rápido que dipirona 1 g isolada, segundo os dados apresentados na monografia"
+      }
+    ],
+    "product_message": "Novalgina Flash — dipirona 1 g + cafeína 130 mg.",
+    "cta": "Conheça as evidências apresentadas na monografia.",
+    "disclaimer": "Material demonstrativo. Conteúdo sujeito à revisão médica e regulatória."
+  },
+  "grounding": {
+    "claims": [
+      {
+        "claim": "A monografia descreve início de ação a partir de 15 minutos para a associação.",
+        "source_page": 18,
+        "source_evidence": "A análise da monografia identificou evidências relacionadas ao início de ação a partir de 15 minutos."
+      },
+      {
+        "claim": "A associação é descrita como aproximadamente duas vezes mais rápida que dipirona 1 g isolada.",
+        "source_page": 30,
+        "source_evidence": "A análise identificou comparação de rapidez entre a associação dipirona + cafeína e dipirona isolada."
+      }
+    ],
+    "warnings": [
+      "Grounding demonstrativo: a correspondência claim-página deverá ser validada diretamente na monografia na etapa de extração de evidências."
+    ]
+  },
+  "review": {
+    "status": "requires_human_review",
+    "notes": ""
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "document_name": "monografia_demo.pdf",
+  "document_summary": "Monografia médica contendo informações clínicas, evidências, segurança, uso em diferentes populações e orientações relacionadas ao produto.",
+  "themes": [
+    {
+      "id": "pediatric_fever",
+      "title": "Manejo da febre infantil",
+      "summary": "Conteúdo relacionado ao manejo da febre em crianças, incluindo orientação terapêutica, segurança e pontos de atenção.",
+      "relevant_pages": [14, 15, 16, 17, 18, 19],
+      "available_claims": 5,
+      "suggested_assets": [
+        "banner_memed",
+        "flyer"
+      ]
+    },
+    {
+      "id": "pediatric_safety",
+      "title": "Segurança no uso pediátrico",
+      "summary": "Informações relacionadas à segurança, administração e riscos associados ao uso do medicamento na população pediátrica.",
+      "relevant_pages": [20, 21, 22, 23, 24],
+      "available_claims": 7,
+      "suggested_assets": [
+        "article_pharmacist",
+        "flyer"
+      ]
+    },
+    {
+      "id": "adult_treatment",
+      "title": "Tratamento da febre em adultos",
+      "summary": "Evidências e orientações relacionadas ao manejo da febre na população adulta.",
+      "relevant_pages": [35, 36, 37, 38, 39, 40],
+      "available_claims": 6,
+      "suggested_assets": [
+        "banner_memed",
+        "article_pharmacist"
+      ]
+    },
+    {
+      "id": "safety_profile",
+      "title": "Perfil de segurança do medicamento",
+      "summary": "Principais informações de segurança, contraindicações, precauções e eventos adversos descritos na monografia.",
+      "relevant_pages": [48, 49, 50, 51, 52, 53],
+      "available_claims": 8,
+      "suggested_assets": [
+        "article_pharmacist",
+        "flyer"
+      ]
+    }
+  ]
+}

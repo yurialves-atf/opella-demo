@@ -1,0 +1,67 @@
+{
+  "document_name": "monografia.pdf",
+  "product_name": "Novalgina Flash",
+  "document_summary": "A monografia apresenta Novalgina Flash como medicamento analgésico composto por dipirona 1 g e cafeína 130 mg, indicado especialmente para o tratamento de dores de cabeça e enxaqueca. O documento contextualiza a dor, a cefaleia, a enxaqueca e dores moderadas a intensas; descreve mecanismos de ação da dipirona e da cafeína; reúne evidências sobre rapidez de início de ação, racional farmacodinâmico e farmacocinético da associação, eficácia de analgésicos associados à cafeína, dados específicos de dipirona e cafeína, importância da dose de cafeína e segurança da formulação. Também inclui orientações sobre interações, consumo total de cafeína, cautelas em indivíduos sensíveis e um apêndice sobre outras associações de dipirona usadas na analgesia.",
+  "themes": [
+    {
+      "id": "alivio_rapido_da_dor",
+      "title": "Alívio rápido da dor",
+      "problem_context": "Em quadros de dor aguda, cefaleia, enxaqueca e dores moderadas a intensas, a monografia apresenta a rapidez no controle da dor como uma necessidade clínica relevante para reduzir sofrimento e favorecer a retomada das atividades.",
+      "product_connection": "Novalgina Flash é descrita como uma combinação de dipirona 1 g e cafeína 130 mg que proporciona início de ação a partir de 15 minutos, aproximadamente 2 vezes mais rápido que dipirona 1 g isolada, com a cafeína associada à antecipação da absorção e do benefício analgésico.",
+      "rationale": "O tema tem conexão direta entre problema, produto e evidência: a necessidade de alívio rápido é apresentada nas seções de dor e dor intensa, enquanto a monografia atribui explicitamente à formulação dipirona 1 g + cafeína 130 mg início de ação a partir de 15 minutos e rapidez superior à dipirona isolada. O material é sintético e com métricas claras, adequado para comunicação curta.",
+      "relevant_pages": [6, 8, 15, 18, 30, 32, 43],
+      "available_product_claims": 4,
+      "suggested_assets": ["banner_memed", "flyer"]
+    },
+    {
+      "id": "cefaleia_e_enxaqueca_no_cotidiano",
+      "title": "Cefaleia e enxaqueca no cotidiano",
+      "problem_context": "A monografia descreve cefaleia e enxaqueca como condições frequentes, recorrentes e associadas a impacto funcional, emocional, produtivo e de qualidade de vida, com episódios percebidos em casa, no trabalho e em atividades diárias.",
+      "product_connection": "Novalgina Flash é indicada como analgésico especialmente para dores de cabeça e enxaqueca e combina dipirona 1 g com cafeína 130 mg para oferecer alívio rápido, maior potência analgésica e maior probabilidade de resposta em dor aguda, com destaque para cefaleia primária e enxaqueca.",
+      "rationale": "A oportunidade é sustentada porque o contexto de cefaleia e enxaqueca é extensamente descrito e o próprio documento conecta esse cenário ao produto: indicação específica, destaque para dor de cabeça e enxaqueca, rapidez de início e evidência de cafeína como adjuvante em cefaleia primária. A narrativa deve evitar transformar dados epidemiológicos em claims de produto, usando-os apenas como abertura contextual.",
+      "relevant_pages": [6, 11, 12, 13, 18, 29, 30, 43],
+      "available_product_claims": 5,
+      "suggested_assets": ["banner_memed", "article_pharmacist", "flyer"]
+    },
+    {
+      "id": "dor_moderada_a_intensa",
+      "title": "Dor moderada a intensa",
+      "problem_context": "A dor intensa é apresentada como quadro que compromete mobilidade, atividades cotidianas e sono, associado a estresse fisiológico e emocional e observado em condições como cefaleias severas, pós-operatório, traumas e cólicas viscerais.",
+      "product_connection": "Novalgina Flash é posicionada na monografia para alívio de cefaleias, enxaquecas e dores moderadas a intensas, aliando dipirona 1 g e cafeína 130 mg em uma formulação de ação rápida e multimodal.",
+      "rationale": "O tema é sustentado porque a monografia descreve a necessidade de tratamentos eficazes e de ação rápida em dor intensa e, em seguida, apresenta Novalgina Flash como produto para dores moderadas a intensas. A conexão promocional é legítima quando focada na formulação, na proposta de alívio rápido e no posicionamento do produto, sem atribuir ao produto resultados de estudos feitos apenas com dipirona isolada.",
+      "relevant_pages": [8, 14, 15, 18, 32, 43],
+      "available_product_claims": 3,
+      "suggested_assets": ["article_pharmacist", "flyer"]
+    },
+    {
+      "id": "mecanismo_sinergico_multimodal",
+      "title": "Mecanismo sinérgico multimodal",
+      "problem_context": "O documento apresenta a dor como fenômeno mediado por mecanismos periféricos, medulares e centrais, o que cria espaço para uma abordagem analgésica com mecanismos complementares.",
+      "product_connection": "Novalgina Flash combina dipirona e cafeína, descritas na monografia como componentes com mecanismos de ação sinérgicos: a dipirona atua de forma multimodal e a cafeína funciona como adjuvante farmacodinâmico, além de contribuir para efeito farmacocinético relacionado à absorção mais precoce dos analgésicos.",
+      "rationale": "A conexão problema-produto-evidência é forte para uma comunicação técnica: a monografia descreve a fisiopatologia da dor, detalha mecanismos da dipirona e da cafeína e resume que a associação resulta em atuação rápida e multimodal. O tema exige explicação, pois combina mecanismo periférico, central, farmacodinâmica e farmacocinética.",
+      "relevant_pages": [15, 16, 18, 19, 20, 21, 26, 31, 32, 43],
+      "available_product_claims": 6,
+      "suggested_assets": ["article_pharmacist", "flyer"]
+    },
+    {
+      "id": "dose_adequada_de_cafeina",
+      "title": "Dose adequada de cafeína",
+      "problem_context": "A monografia discute que o efeito adjuvante da cafeína em analgesia depende da dose, com evidências sugerindo benefício em faixas de 100 a 130 mg e potencial limitação de doses mais baixas.",
+      "product_connection": "Novalgina Flash contém 130 mg de cafeína, dose alinhada na monografia à faixa descrita para potencialização analgésica e antecipação do benefício quando adicionada a analgésicos simples.",
+      "rationale": "O tema possui material suficiente porque a monografia conecta a dose de 130 mg de cafeína do produto a revisões, meta-análises e discussões de dose-resposta. A narrativa deve ser conservadora ao separar evidências de classe de claims específicos do produto, mas a formulação de Novalgina Flash se conecta claramente à faixa de dose discutida.",
+      "relevant_pages": [6, 20, 27, 28, 29, 30, 33, 34, 43],
+      "available_product_claims": 5,
+      "suggested_assets": ["banner_memed", "article_pharmacist", "flyer"]
+    },
+    {
+      "id": "seguranca_e_orientacoes_de_uso",
+      "title": "Segurança e orientações de uso",
+      "problem_context": "Ao escolher uma combinação analgésica com cafeína, o prescritor ou dispensador precisa considerar tolerabilidade, possíveis eventos associados à cafeína, interações metabólicas, consumo total diário de cafeína e horários de administração.",
+      "product_connection": "A monografia afirma que, nas doses usuais, Novalgina Flash apresenta balanço favorável entre eficácia potencializada e segurança, com orientação de atenção a indivíduos sensíveis à cafeína, avaliação da ingestão total de cafeína e preferência por evitar doses no fim da tarde ou à noite.",
+      "rationale": "A oportunidade é adequada para comunicação técnica porque o documento dedica uma seção à segurança de Novalgina Flash, descreve evidências de associação analgésico+cafeína, dose diária de cafeína compatível com até 4 comprimidos, interação com aumento da exposição à cafeína e alertas sobre sono, arritmias, ansiedade e insônia. O tema deve manter tom equilibrado e não converter cautelas em benefícios.",
+      "relevant_pages": [6, 36, 37, 38, 39, 40, 41, 44],
+      "available_product_claims": 6,
+      "suggested_assets": ["article_pharmacist", "flyer"]
+    }
+  ]
+}

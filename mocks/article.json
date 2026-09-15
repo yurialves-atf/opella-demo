@@ -1,0 +1,81 @@
+{
+  "asset_type": "article_pharmacist",
+  "audience": "Farmacêutico",
+  "objective": "Educação e aprofundamento técnico",
+  "creative_concept": {
+    "main_message": "O racional por trás do início de ação de Novalgina Flash",
+    "visual_direction": "Conteúdo editorial técnico, com estrutura educacional, evidências e explicação da associação dipirona + cafeína"
+  },
+  "content": {
+    "headline": "Rapidez no alívio da dor: o racional da associação dipirona + cafeína",
+    "subheadline": "Entenda como a composição de Novalgina Flash se relaciona às evidências de início de ação apresentadas na monografia.",
+    "sections": [
+      {
+        "title": "O desafio do controle da dor",
+        "text": "A monografia contextualiza dor aguda, cefaleia, enxaqueca e quadros de dor moderada a intensa, destacando a importância do controle adequado dos sintomas."
+      },
+      {
+        "title": "A associação presente em Novalgina Flash",
+        "text": "Novalgina Flash combina dipirona 1 g e cafeína 130 mg. A monografia apresenta evidências clínicas e farmacológicas relacionadas ao uso dessa associação."
+      },
+      {
+        "title": "Início de ação",
+        "text": "Os dados apresentados na monografia descrevem início de ação a partir de 15 minutos e uma resposta aproximadamente duas vezes mais rápida em comparação à dipirona 1 g isolada."
+      },
+      {
+        "title": "O papel da cafeína",
+        "text": "Além de seu papel como adjuvante analgésico, a cafeína é discutida na monografia em relação à antecipação da absorção da dipirona e ao racional farmacocinético da associação."
+      }
+    ],
+    "key_points": [
+      "Novalgina Flash contém dipirona 1 g e cafeína 130 mg.",
+      "A monografia apresenta início de ação a partir de 15 minutos.",
+      "Há dados comparativos de rapidez em relação à dipirona 1 g isolada.",
+      "A cafeína participa do racional farmacológico e farmacocinético da associação."
+    ],
+    "evidence_blocks": [
+      {
+        "metric": "15 min",
+        "message": "início de ação descrito na monografia"
+      },
+      {
+        "metric": "1 g + 130 mg",
+        "message": "dipirona + cafeína na formulação"
+      }
+    ],
+    "product_message": "Novalgina Flash — associação de dipirona 1 g e cafeína 130 mg.",
+    "cta": "Consulte a monografia para aprofundar as evidências clínicas e farmacológicas.",
+    "disclaimer": "Material demonstrativo destinado à avaliação da POC. Conteúdo sujeito à revisão médica e regulatória."
+  },
+  "grounding": {
+    "claims": [
+      {
+        "claim": "Novalgina Flash combina dipirona 1 g e cafeína 130 mg.",
+        "source_page": 6,
+        "source_evidence": "A análise identifica a composição da formulação como dipirona 1 g e cafeína 130 mg."
+      },
+      {
+        "claim": "A monografia descreve início de ação a partir de 15 minutos.",
+        "source_page": 18,
+        "source_evidence": "A análise identifica dados relacionados ao início de ação a partir de 15 minutos."
+      },
+      {
+        "claim": "A associação apresenta dados de rapidez em comparação à dipirona isolada.",
+        "source_page": 30,
+        "source_evidence": "A análise relata resposta aproximadamente duas vezes mais rápida que dipirona 1 g isolada."
+      },
+      {
+        "claim": "A cafeína é discutida como parte do racional farmacocinético da associação.",
+        "source_page": 32,
+        "source_evidence": "A análise aponta dados de absorção acelerada relacionados à presença da cafeína."
+      }
+    ],
+    "warnings": [
+      "Grounding ainda demonstrativo; a evidência textual e a página exata deverão ser extraídas diretamente da monografia antes de considerar os claims validados."
+    ]
+  },
+  "review": {
+    "status": "requires_human_review",
+    "notes": ""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "asset_type": "flyer",
+  "audience": "Profissional de saúde",
+  "objective": "Awareness e educação sobre rapidez de ação",
+  "creative_concept": {
+    "main_message": "Rapidez no alívio da dor com Novalgina Flash",
+    "visual_direction": "Comparação visual entre o início de ação de Novalgina Flash e outras dipironas, destacando 15 versus 30 minutos."
+  },
+  "content": {
+    "headline": "Novalgina Flash: ação a partir de 15 minutos",
+    "subheadline": "Dipirona 1 g + cafeína 130 mg em uma combinação desenvolvida para o tratamento da dor.",
+    "sections": [
+      {
+        "title": "2x mais rápido",
+        "text": "A monografia apresenta início de ação a partir de 15 minutos e comparação de rapidez com dipirona 1 g isolada."
+      },
+      {
+        "title": "15 minutos vs. 30 minutos",
+        "text": "A comunicação visual destaca a diferença de tempo de início de ação apresentada para a associação."
+      },
+      {
+        "title": "Combinação Novalgina Flash",
+        "text": "A formulação associa dipirona 1 g e cafeína 130 mg."
+      }
+    ],
+    "key_points": [
+      "Dipirona 1 g + cafeína 130 mg.",
+      "Ação a partir de 15 minutos.",
+      "Comparação de rapidez com dipirona isolada.",
+      "Indicação apresentada no material para dor de cabeça e dores intensas."
+    ],
+    "evidence_blocks": [
+      {
+        "metric": "15 min",
+        "message": "início de ação apresentado na monografia"
+      },
+      {
+        "metric": "30 min",
+        "message": "referência comparativa apresentada na comunicação"
+      }
+    ],
+    "product_message": "Novalgina Flash — dipirona 1 g + cafeína 130 mg.",
+    "cta": "Consulte as evidências completas apresentadas na monografia.",
+    "disclaimer": "Material demonstrativo. Conteúdo sujeito à revisão médica e regulatória."
+  },
+  "grounding": {
+    "claims": [
+      {
+        "claim": "Novalgina Flash contém dipirona 1 g e cafeína 130 mg.",
+        "source_page": 6,
+        "source_evidence": "A monografia identifica a formulação como associação de dipirona 1 g e cafeína 130 mg."
+      },
+      {
+        "claim": "A associação apresenta início de ação a partir de 15 minutos.",
+        "source_page": 18,
+        "source_evidence": "A monografia apresenta dados relacionados ao início de ação a partir de 15 minutos."
+      },
+      {
+        "claim": "A associação apresenta maior rapidez em comparação à dipirona 1 g isolada.",
+        "source_page": 30,
+        "source_evidence": "A monografia apresenta comparação de rapidez entre a associação e dipirona isolada."
+      }
+    ],
+    "warnings": [
+      "Os claims finais do flyer devem passar por grounding claim-a-claim antes da publicação."
+    ]
+  },
+  "review": {
+    "status": "requires_human_review",
+    "notes": ""
+  }
+}
